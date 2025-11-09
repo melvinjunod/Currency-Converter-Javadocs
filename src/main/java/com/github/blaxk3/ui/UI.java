@@ -27,6 +27,10 @@ import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.DocumentFilter;
 
+/**
+ * Kelas yang membangun UI
+ */
+
 public class UI extends javax.swing.JFrame {
 
     private static final Logger logger = LoggerFactory.getLogger(UI.class);
@@ -164,6 +168,10 @@ public class UI extends javax.swing.JFrame {
         return label;
     }
 
+    /**
+     * Memastikan bahwa text box di dalam program hanya bisa dimasuki angka valid
+     */
+
     public static class NumericFilter extends DocumentFilter {
 
         @Override
@@ -210,6 +218,10 @@ public class UI extends javax.swing.JFrame {
             return true;
         }
     }
+
+    /**
+     * Dropdown selection yang terdiri atas daftar kode mata uang yang diambil dari API
+     */
 
     public static class CurrencyCode extends SwingWorker < String[], Void > {
         private final JComboBox < String > comboBox;

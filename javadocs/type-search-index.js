@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"com.github.blaxk3.ui","l":"UI.CurrencyCode"},{"p":"com.github.blaxk3.converter","l":"CurrencyConverter"},{"p":"com.github.blaxk3.api","l":"CurrencyRateAPI"},{"p":"com.github.blaxk3.ui","l":"UI.NumericFilter"},{"p":"com.github.blaxk3.ui","l":"UI"}];updateSearchResults();
